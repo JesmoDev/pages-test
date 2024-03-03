@@ -34,7 +34,7 @@ export class MyElement extends LitElement {
       ${repeat(
         this.testBlogs,
         (blog) => blog.title,
-        (blog, index) => html`
+        (blog) => html`
           <div class="card">
             <h2>${blog.title}</h2>
             <p>${blog.content}</p>
