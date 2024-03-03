@@ -1,3 +1,3 @@
 export default {
-  base: "jesmodev.github.io/",
+  base: "/pages-test/",
 };
